@@ -7,13 +7,16 @@
   <link rel="stylesheet" href="animacoes.css">
   <script src="prefixfree.min.js"></script>
   <title>O que eu mais gosto em Brasília</title>
+  <!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+  <![endif]-->
 </head>
 <body>
   <div class="container">
-    <h1><a href="">O que mais gosto em Brasília</a></h1>
+    <header><h1><a href="">O que mais gosto em Brasília</a></h1></header>
 
-  <div class="places">
-    <div class="place">
+  <section>
+    <article>
       <h2>Torre de TV</h2>
       <img src='imagens/torre-de-tv.jpg' title="Torre de TV" alt="Torre de TV ao entardecer">
       <p>
@@ -32,9 +35,9 @@
         target="_blank">Twitter</a>?
       </p>
       <div class="clear"></div>
-    </div>
+    </article>
 
-    <div class="place">
+    <article>
       <h2>Ponte Juscelino Kubitschek</h2>
       <img src="imagens/Ponte-JK041.jpg" title="Ponte JK" alt="Ponte JK ao entardecer">
       <p>
@@ -56,9 +59,9 @@
         Juscelino_Kubitschek_Bridge-Brasilia_Federal_District.html">Ponte JK</a>.
       </p>
       <div class="clear"></div>
-    </div>
+    </article>
 
-    <div class="place">
+    <article>
       <h2>Parque da Cidade Dona <em>Sarah Kubitschek</em></h2>
       <img src="imagens/park.jpg" title="Park da Cidade" alt="Park da Cidade">
       <p>
@@ -76,10 +79,10 @@
       <p>Para saber o que fazer no <a href="https://www.tripadvisor.com.br/
         Attraction_Review-d2349426.html">Park da Cidade</a>.</p>
       <div class="clear"></div>
-    </div>
-  </div>
+    </article>
+  </section>
 
-  <div class="sidenote">
+  <aside>
     <h3>E existem muitos outros lugares interressantes na cidade...</h3>
     <ol>
       <li> <a href="https://catedral.org.br/">Catedral Metropolitana Nossa 
@@ -93,12 +96,13 @@
       <li><a href="https://www.passagenspromo.com.br/blog/o-que-fazer-em-
         brasilia/">E mais!</a></li>
     </ol>
-  </div>
+  </aside>
   
-  <div class="footer clear">
+  <footer class="clear">
     <p>Parte do livro "HTML5 e CSS3: Domine a web do futuro."</p>
+  </footer>
   </div>
-  </div>
+
   <script src="jquery.min.js"></script>
 </body>
 </html>
