@@ -2,48 +2,49 @@
 .container {
   margin: 0 auto;
   width: 960px;
+  color: #264653;
 }
 
 /* line-height: 1.6, 160% em relacao a fonte*/
 body {
-  background: #fff1d6 url(imagens/noise.png);
+  background: #e9c46a url(imagens/noise.png);
   font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   line-height: 1.6;
 }
 
 /*padding espacamento dentro, margin-bottom espacamento entre os elementos*/
 .place {
-  background-color: #FFF;
-  border: 1px solid #CCC;
-  border-color: #CCC #999 #999 #CCC;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-color: #ccc #999 #999 #ccc;
   margin-bottom: 20px;
   padding: 10px;
 }
 
 .place h2 {
-  border-bottom: 1px dashed #5F9EA0;
+  border-bottom: 1px dashed #2a9d8f;
   margin: 0;
 }
 
 .place a {
-  color: #2C88A7;
+  color: #2a9d8f;
   font-weight: bold;
 }
 
 h1 a {
-  color: #5F9EA0;
+  color: #2a9d8f;
   text-decoration: none;
 }
 
 /*alterar a cor e fundo do titulo ao se passar o mouse
 pseudo seletores: focus, visited, active*/
 h1 a:hover {
-  background-color: #5F9EA0;
-  color: #FFF;
+  background-color: #2a9d8f;
+  color: #fff;
 }
 
 .place img {
-  border: 1px solid #5F9EA0;
+  border: 1px solid #2a9d8f;
   float: left;
   margin: 10px 10px 0 0;
   padding: 2px;
@@ -59,8 +60,8 @@ h1 a:hover {
 }
 
 .sidenote {
-  background-color: #FFFBE4;
-  border: 1px solid #C9BC8F;
+  background-color: #fff;
+  border: 1px solid #c9bc8f;
   float: right;
   padding: 10px;
   width: 260px;
@@ -78,5 +79,10 @@ h1 a:hover {
 /*Conteudo principal*/
 .places {
   float: left;
-  width: 660px;;
+  width: 660px;
+}
+
+.sidenote a {
+  color: #2c88a7;
+  font-weight: bold;
 }
