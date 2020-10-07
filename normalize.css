@@ -6,14 +6,16 @@
 
 /* line-height: 1.6, 160% em relacao a fonte*/
 body {
+  background: #fff1d6 url(imagens/noise.png);
   font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   line-height: 1.6;
 }
 
 /*padding espacamento dentro, margin-bottom espacamento entre os elementos*/
 .place {
-  border-color: #ccc #999 #999 #ccc;
-  border: 1px solid #ccc;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-color: #CCC #999 #999 #CCC;
   margin-bottom: 20px;
   padding: 10px;
 }
@@ -23,8 +25,7 @@ body {
   margin: 0;
 }
 
-body {
-  background: #fff1d6 url(imagens/noise.png);
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-  line-height: 1.6;
+.place a {
+  color: #2C88A7;
+  font-weight: bold;
 }
